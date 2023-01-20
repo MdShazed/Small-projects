@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 234, 0);
+}
+
+.container {
+    color: rgb(255, 225, 0);
+    background-color: rgb(160, 82, 0);
+    margin: 0 300px;
+    border: white;
+    border-radius: 20px;
+    padding: 190px;
+    margin-top: 150px;
+    box-shadow: 5px 10px 8px #000000;
+    font-family: 'Chivo Mono', monospace;
+}
+
+h2 {
+    font-size: 40px;
+    float: left;
+    margin: -80px 0;
+    margin-left: -95px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #000000; 
+    /* text-shadow: 2px 2px #000000; */
+}
+
+.form {
+    /* background-color: #000000;   */
+    margin-top: -299px;
+    float: right;
+    margin-right: 400px;
+    
+}
+
+input {
+    padding: 15px;
+    /* font-size: 20px; */
+    font-family: 'Chivo Mono', monospace;
+    display: flex;
+    margin: 15px;
+    outline: none;
+    box-shadow: 5px 10px 8px #000000;
+    /* border: 2px solid #000000; */
+}
+
+button{
+    background-color: rgb(218, 223, 60);
+    color: rgb(54, 54, 54) ;
+    box-shadow: 5px 10px 8px #000000;
+    outline: none;
+    font-family: 'Chivo Mono', monospace;
+    margin-left: 15px;
+    padding: 10px;
+    /* border: 2px solid #000000; */
+    cursor: pointer;
+    /* border: none; */
+}
+
+p{
+    text-align: center;
+    margin-top: -75px;
+    color: rgb(255, 247, 0);
+    font-family: 'Chivo Mono', monospace;
+    text-shadow: 2px 2px 4px #000000; 
+}
