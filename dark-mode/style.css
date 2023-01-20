@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --bg-color: red;
+    --red-color : rgb(0, 0, 0);
+    --bg-t: black;
+    --border-d: white;
+    --black-color: black;
+    --white-color: white;
+}
+
+.drk {
+    --bg-color: rgb(0, 0, 0);
+    --red-color : rgb(255, 0, 0);
+    --bg-t: rgb(255, 255, 255);
+    --border-d: rgb(255, 255, 255);
+    --black-color: rgb(255, 255, 255);
+    --white-color: rgb(0, 0, 0);
+}
+
+.red {
+    --bg-color: red;
+    --red-color : black;
+    --bg-t: black;
+    --border-d: white;
+    --black-color: black;
+    --white-color: white;
+}
+
+
+
+body {
+    background-color: var(--bg-color);
+}
+
+.container {
+    margin: 230px 0;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header h1 {
+
+    color: var(--white-color);
+    text-align: center;
+    padding: 10px 20px;
+    background-color: var(--bg-t);
+    border-radius: 7px;
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn {
+    text-align: center;
+    margin: 44px 0;
+}
+
+.btn input {
+    /* background-color: rgb(0, 0, 0); */
+    text-decoration: none;
+    color: var( --red-color);
+    border: 3px solid var(--border-d);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    background-color: Transparent;
+    cursor: pointer;
+}
