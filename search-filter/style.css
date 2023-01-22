@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color:honeydew;
+    color: white;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    /* overflow: hidden; */
+    /* justify-content: center ;
+    align-items: center; */
+}
+
+.container{
+    margin: auto ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 350px;
+    height: 520px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+.form{
+    background-color: blueviolet;
+    height: 500px;
+    width: 320px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.form input{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px 30px;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.form button{
+    padding: 5px 10px;
+    margin: 0px -33px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    outline: none;
+    transition: 0.2s ease;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form button:hover{
+    background-color: grey;
+}
+
+
+.form .search-box{
+    /* background-color: blue; */
+    margin: 0px -22px;
+}
+
+.fotter{
+    /* background-color: burlywood; */
+    margin: 119px 0 ;
+}
+
+.fotter p {
+    color: black;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    margin: 9px 15px;
+    
+}
+
+.products .item{
+    display: flex;
+    flex-direction: row;
+    margin: 3px 0;
+    cursor: pointer;
+}
+
+.products .item h2{
+    margin: 0 7px;
+    font-size: 20px;
+}
+
+.products .item #one{
+    /* background-color: aqua; */
+    height: 20px;
+    margin: 23px -49px;
+}
+
+.products .item #two{
+    /* background-color: aqua; */
+    height: 20px;
+    margin: 23px -107px;
+}
+
+.products .item #three{
+    /* background-color: aqua; */
+    height: 20px;
+    margin: 23px -89px;
+}
+
+.products .item #four{
+    /* background-color: aqua; */
+    height: 20px;
+    margin: 23px -88px;
+}
+
+.products .item #five{
+    /* background-color: aqua; */
+    height: 20px;
+    margin: 23px -115px;
+}
+
+.products img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
