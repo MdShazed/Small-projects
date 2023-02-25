@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+/* font-family: 'Noto Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+/* box work */
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #bcb7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 800px;
+    height: 550px;
+    background-color: white;
+}
+
+/* header */
+
+.header{
+    margin: 30px 50px;
+    text-align: center;
+    position: relative;
+    /* left: 33px; */
+    font-family: 'Quicksand', sans-serif;
+    color: #1e00ff;
+}
+
+/* inputs */
+
+.inputs{
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+}
+
+.inputs input{
+    margin: 10px 20px;
+    width: 280px;
+    height: 50px;
+    padding: 0 17px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.name input{
+    background-color: #c5c1ff;
+}
+
+.e-p input{
+    background-color: #918af6;
+}
+
+.addr input{
+    width: 634px;
+    background-color: #857eec;
+}
+
+.textarea textarea{
+    width: 634px;
+    height: 80px;
+    resize: none;
+    padding: 17px;
+    margin: 0 20px;
+    background-color: #655bee;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+
+/* button */
+
+.Submit{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.Submit button{
+    width: 160px;
+    height: 40px;
+    border-radius: 1000px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #1e00ff;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.Submit button:hover{
+    background-color: #6a57f3;
+}
+
+/* thanks text  */
+
+.thanks-text{
+    position: relative;
+    bottom: 15px;
+    left: 80px;
+    color: #2ed853;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* responsize */
+
+@media (max-width: 734px ) {
+    .thanks-text{
+        text-align: center;
+        position: relative;
+        left: 1px;
+    }
+}
