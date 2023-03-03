@@ -1,0 +1,110 @@
+/* index page */
+@media (max-width: 1043px) {
+    .image-slider{
+        margin-top: 15rem;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .image-slider{
+        display: none;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .top-footer{
+        margin-top: 20rem;
+    }
+
+}
+
+@media (max-width: 695px) {
+    .top-footer{
+        margin-top: 37rem;
+    }
+
+}
+
+@media (max-width: 327px) {
+    .top-footer{
+        margin-top: 44rem;
+    }
+
+}
+
+@media (max-width: 360px) {
+    .top-footer{
+        margin-top: 56rem;
+    }
+    .tf-header{
+        position: relative;
+        top: 13px;
+    }
+}
+
+@media (max-width: 541px) {
+    .top-footer .inputs input{
+        padding: 6px 20px ;
+    }
+    .top-footer .inputs button{
+        padding: 6px 20px ;
+    }
+
+}
+
+@media (max-width: 501px) {
+
+    .top-footer .inputs input{
+        padding: 6px 20px ;
+    }
+    .top-footer .inputs button{
+        margin-top: 10px;
+        position: relative;
+        right: 20px;
+    }
+
+}
+
+@media (max-width: 321px) {
+
+    .top-footer .inputs input{
+        position: relative;
+        right: 25px;
+        padding: 6px 20px ;
+    }
+    .top-footer .inputs button{
+        margin-top: 10px;
+        position: relative;
+        left: 30px;
+    }
+}
+
+@media (max-width: 390px) {
+    .footer p{
+        font-size: 13px;
+    }
+}
+@media (max-width: 321px) {
+    .footer p{
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 384px) {
+    .header .header-txt h1{
+        font-size: 50px;
+    }
+    .header .header-txt p{
+        font-size: 13px;
+        margin: 0 20px;
+    }
+}
+
+@media (max-width: 312px) {
+    .about-us .about-para{
+        font-size: 15px;
+    }
+}
