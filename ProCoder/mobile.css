@@ -34,6 +34,13 @@
 
 }
 
+@media (max-width: 360px) {
+    .top-footer{
+        margin-top: 56rem;
+    }
+
+}
+
 @media (max-width: 541px) {
     .top-footer .inputs input{
         padding: 6px 20px ;
@@ -83,12 +90,12 @@
 }
 
 
-@media (max-width: 312px) {
+@media (max-width: 384px) {
     .header .header-txt h1{
         font-size: 50px;
     }
     .header .header-txt p{
-        font-size: 10px;
+        font-size: 13px;
         margin: 0 20px;
     }
 }
