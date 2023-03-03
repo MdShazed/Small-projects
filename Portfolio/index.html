@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="logo">
+            <h2>LOGO</h2>
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">Contact me</a></li>
+                <li><a href="#" id="learn-more">Learn more</a></li>
+            </ul>
+        </div>
+
+        <!-- header -->
+
+        <div class="header">
+            <h1>Hi, i'm Shazed</h1>
+            <h2><span class="auto-type"></span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem, ipsum dolor. <br> Consectetur quibusdam voluptatibus ut 
+                repellendus eaque <br> deleniti ratione obcaecati illum temporibus magnam? <br>
+                sse quibusdam impedit.</p>
+
+            <div class="btn">
+                <button id="Hire-me" >Hire me</button>
+                <button id="Latest-Works" >Latest Works</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- js part -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+
+        var options = {
+            strings: ['Web developer', 'Web designer', 'Programmer'],
+            typeSpeed: 150 ,
+            backspeed : 150 , 
+            loop : true
+        };
+
+        var typed = new Typed('.auto-type', options);
+    </script>
+
+</body>
+
+</html>
