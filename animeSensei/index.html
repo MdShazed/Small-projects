@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AnimeSensei - anime recomendation app</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="top"></div>
+
+        <div class="nav">
+            <h2 onclick="pageReload()" >Anime Sensei</h2>
+            <button onclick="gitHub()" >Github</button>
+        </div>
+
+        <div class="header">
+            <h1>Anime Sensei</h1>
+            <p>Can't find anime to watch , try this</p>
+            <div class="img"><img src="img.png"></div>
+            <div class="btns">
+                <a href="#results"><button>Try for free</button></a>
+                <button id="api_btn" onclick="ApiInUse()" >Api in use &#127866;</button>
+            </div>  
+
+           <a href="#results"><div class="down_arr"><h2>&#8681;</h2></div></a> 
+             
+        </div>
+
+        <div class="results" id="results" >
+            <div class="result_header">
+                <h1>Get your anime</h1>
+                <p>Just give it a try</p>
+            </div>
+            <div class="result_box">
+                <div class="txt">
+                    <p id="anime" >It may take sometime just press once</p>
+                    <p id="character" ></p>
+                    <p id="quote" ></p>
+                </div>
+            </div>
+            <div class="generate_btn">
+                <button onclick="main()" >Generate</button>
+            </div>
+        </div>
+
+        <div class="credits"><p>Created ❤️ by mdShazed © 2023</p></div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
