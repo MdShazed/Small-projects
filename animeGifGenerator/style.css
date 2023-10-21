@@ -4,11 +4,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Courier New", Courier, monospace;
 }
 
 h1 {
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
 }
 
@@ -23,8 +23,7 @@ button {
   padding: 10px 15px;
   outline: none;
   border: 2px solid transparent;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: white;
+font-family: "Courier New", Courier, monospace;  background-color: white;
   cursor: pointer;
   color: black;
   border-radius: 5px;
